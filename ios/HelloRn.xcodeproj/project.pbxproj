@@ -19,6 +19,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* HelloRnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloRnTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AE41F31CA3CA45DBBA24642D /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F14053E5E0B4BCF86860E0F /* Ionicons.ttf */; };
 		DE058DD5BD1600E8932F037C /* libPods-HelloRn-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 957E05D42A7ABC52CE0BB736 /* libPods-HelloRn-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		33073321DDF9B77A64DC324E /* Pods-HelloRn-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRn-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloRn-tvOSTests/Pods-HelloRn-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D5B207F9E908BD076A87199 /* Pods-HelloRn-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRn-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HelloRn-tvOSTests/Pods-HelloRn-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F9B62FC5F82B5A51BAFB65E /* Pods-HelloRn-HelloRnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRn-HelloRnTests.release.xcconfig"; path = "Target Support Files/Pods-HelloRn-HelloRnTests/Pods-HelloRn-HelloRnTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F14053E5E0B4BCF86860E0F /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-ionicons/fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		78E458226A6F5177141B3012 /* Pods-HelloRn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRn.debug.xcconfig"; path = "Target Support Files/Pods-HelloRn/Pods-HelloRn.debug.xcconfig"; sourceTree = "<group>"; };
 		7F3AABC49BC4C805EECB390E /* libPods-HelloRn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HelloRn/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3DBBAA332502FD5800B6FCA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F14053E5E0B4BCF86860E0F /* Ionicons.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +175,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B5CF5CA4DED6F63F1E108A75 /* Pods */,
+				3DBBAA332502FD5800B6FCA2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,7 +205,6 @@
 				33073321DDF9B77A64DC324E /* Pods-HelloRn-tvOSTests.debug.xcconfig */,
 				3D5B207F9E908BD076A87199 /* Pods-HelloRn-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -342,6 +352,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AE41F31CA3CA45DBBA24642D /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
